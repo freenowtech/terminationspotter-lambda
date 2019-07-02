@@ -14,12 +14,11 @@ It can be deployed using [Terraform][terraform] and will create:
 
 It will trigger every time a spot instance is scheduled for termination.
 
-
 ## Usage
 
 ``` hcl
 module "terminationspotter" {
-  source = "github.com/mytaxi/terminationspotter-lambda"
+  source = "github.com/freenowtech/terminationspotter-lambda"
 }
 ```
 
